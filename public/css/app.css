@@ -1,0 +1,131 @@
+    .navbar {
+      border-bottom: 2px solid #d7a14a; /* golden line */
+      background-color: #fafafa;
+      padding: 0.75rem 2rem;
+      position: relative; /* for absolute positioning of logo */
+      z-index: 10;
+    }
+
+    .navbar-brand {
+      position: relative;
+    }
+
+    /* logo styling */
+    .navbar-brand img {
+      height: 120px; /* slightly larger */
+      position: absolute;
+      bottom: -25px; /* pushes lower half outside */
+      left: 0;
+      transform: translateY(50%);
+      border-radius: 50%;
+    }
+
+    .nav-link {
+      color: #b17b2f !important;
+      font-weight: 600;
+      letter-spacing: 1px;
+      margin: 0 15px;
+    }
+
+    .nav-link:hover {
+      color: #a36b22 !important;
+    }
+
+    .signin {
+      color: #2aa6a2;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .signin:hover {
+      color: #1d7c79;
+    }
+
+    .signin i {
+      color: #b17b2f;
+      margin-right: 5px;
+    }
+
+    /* optional: spacing under navbar so logo doesn’t overlap content */
+    body {
+      /* padding-top: 40px; */
+      background-color: #fafafa
+    }
+ 
+    #addcitycrd{
+        background-color: #64B0AB;
+    }
+    #addcitybtn{
+        background-color: #64B0AB;
+    }
+    #addplccrd{
+        background-color: #d6a55a;
+    }
+
+    #addplcbtn{
+        background-color: #d6a55a !important;
+    }
+    #delplccrd{
+        background-color: #b30000;
+    }
+    #delplcbtn{
+        background-color: #b30000;
+        color: #fff;
+    }
+
+    h1{
+        color: #b30000 !important;
+    }
+
+    
+
+  footer {
+  border-top: 2px solid #d7a75a;
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+  background-color: #f8f8f8;
+  position: relative;
+  margin-top: 70px;
+}
+
+.sphinx-container {
+  top: 0;
+  left: 4rem;
+  transform: translateY(-90%); /* keeps only 10% of image inside footer */
+}
+
+.sphinx-img {
+  height: 200px; /* adjust as needed */
+}
+
+.footer p,
+.footer a {
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+
+.footer i {
+  color: #64B0AB;
+  border: 2px solid #64B0AB;
+  border-radius: 50%;
+  padding: 8px;
+  transition: 0.3s ease;
+  width: 55px !important;
+}
+
+.footer i:hover {
+  background-color: #d7a75a;
+  color: #fff;
+}
+
+.sphinx-img{
+  height: 100px !important;
+}
+
+.form-check-input:checked {
+  background-color: #b30000 !important;  /* red */
+  border-color: #b30000 !important;
+}
+
+
+    
